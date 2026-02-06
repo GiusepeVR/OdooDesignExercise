@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Manrope", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8%;
+}
+
+.caption {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  column-gap: 24px;
+  line-height: 48px;
+}
+
+.figma {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+    max-width: 1200px;
+  }
+}
