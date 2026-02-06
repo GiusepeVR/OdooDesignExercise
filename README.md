@@ -1,3 +1,3 @@
-# Giusepe V.R. Portfolio for 2024.
+# OdooDesignExercise.
 
-Responsive portfolio with minimal layout.
+Simple static page with minimal layout.
